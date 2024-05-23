@@ -13,6 +13,7 @@ class Book(BaseModel):
 class Author(BaseModel):
     name: str
     age: int
+    nationality: str
 
     class Config:
         orm_mode = True

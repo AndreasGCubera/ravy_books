@@ -1,6 +1,6 @@
 import os
 import sys
-import models
+from src import models
 from logging.config import fileConfig
 
 from alembic import context
